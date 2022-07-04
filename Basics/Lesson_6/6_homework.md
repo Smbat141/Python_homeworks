@@ -36,7 +36,7 @@
 		ավելացրեք նոր ֆայլում user-ների տվյալնեը հետեվյալ ֆոռմատով
 		
 		user 1: first_name = Jorj, last_name = Bush, age = 55
-		user 1: first_name = James, last_name = Bond, age = 100
+		user 2: first_name = James, last_name = Bond, age = 100
 ```
 
 ### Research
