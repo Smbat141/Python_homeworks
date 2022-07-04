@@ -41,7 +41,7 @@
 
 ### Research
 ```
-	1. isdisjouint() մեթոդը
+	1. isdisjoint() մեթոդը
 	2. remove()-ի ու discard()-ի տարբերությունը
 ```
 
