@@ -117,11 +117,10 @@
 
 ## Chapter 3
 ### 1. functon as first class object
-
+### 2. lambda functions
 
 ```python
 # 1. functon as first class object
-# 2. lambda functions
 # def dai_pyatь():
 #     return 5
 
