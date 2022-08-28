@@ -18,11 +18,11 @@
 		...		.....
 		>>>	
 		>>> x = ['abcba', 'abcbca', 'abcbt', '121', '123454321', '5551555']
-		>>>	y = {...} # dict generator
-		>>>	y
+		>>> y = {...} # dict comprehension
+		>>> y
 		{'abcba':True, 'abcbca':False, 'abcbt':False, '121':True, '123454321':True, '5551555':True}
 		
-		Լրացրեք բաց թողնված կոդը:
+		Լրացրեք բաց թողնված կոդը, is_simetric function-ը պետք է օգտագործեք y-ը ստանալու ժամանակ։
 ```
 
 ### Research
