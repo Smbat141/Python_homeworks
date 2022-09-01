@@ -12,7 +12,7 @@
 	5.	Գտեք string-ը համահունչ է թե ոչ
 		Օրինակ 'abcba', '12321' 
 		
-	6.	>>> def is_simetric(arg):
+	6.	>>> def is_symmetric(arg):
 		...		.....
 		...		.....
 		...		.....
@@ -22,7 +22,7 @@
 		>>> y
 		{'abcba':True, 'abcbca':False, 'abcbt':False, '121':True, '123454321':True, '5551555':True}
 		
-		Լրացրեք բաց թողնված կոդը, is_simetric function-ը պետք է օգտագործեք y-ը ստանալու ժամանակ։
+		Լրացրեք բաց թողնված կոդը, is_symmetric function-ը պետք է օգտագործեք y-ը ստանալու ժամանակ։
 ```
 
 ### Research
