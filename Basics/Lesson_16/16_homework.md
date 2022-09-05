@@ -2,14 +2,14 @@
 ```
 	1.   Գրել login module:
 			
-		1.1 	login լինելուց ստուգեք decorator-ի միջոցով user-ի role-ը
+		1.1     login լինելուց ստուգեք decorator-ի միջոցով user-ի role-ը
 			և կախված role-ից ցույց տվեք user-ներին:
 		
 			user - տպեք միայն իր տվյալները
 			admin - տպեք բոլոր admin-ների և user-ների տվյալները
 			super_admin - տպեք բոլոր տեսակի user-ների տվյալները
 		
-		1.2 	Օգտվելով time module-ից ստուգեք login function-ը ինչքան 
+		1.2	Օգտվելով time module-ից ստուգեք login function-ը ինչքան 
 			ժամանակում է կատարվում decorator-ի միջոցով (առաջադրանքը կատարել research-ից հետո)
 
 	2.  Գրել registration module:
@@ -29,7 +29,7 @@
 
 ### Research
 ```
-	1.	functools module - wraps,compose 
+	1.	functools module - wraps 
 	2.	time module 
 ```
 
