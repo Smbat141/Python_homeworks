@@ -2,7 +2,8 @@
 
 ```
 	1.	Գրել Car Class որը կունենա
-		1.1 	engine_type, headlights_count(բոլոր մեքենաների համար տալ 4), wheels_count:
+		
+                1.1     engine_type, headlights_count(բոլոր մեքենաների համար տալ 4), wheels_count:
 			Ինքներդ որոշեք թե որը կարող է լինել class attribute և որը object attribute: 
 		
 		1.2	Գրել method որը կհաշվի և կվերադարցնի Car-ի max արագությունը ըստ հետեվյալ երևակայական բանաձևի :)
