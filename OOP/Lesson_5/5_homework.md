@@ -12,9 +12,9 @@
 		Հուշում ՝ պետք է օգտագորցեք Operators overloading և regex
 		
 		3.1 x = FilterText(text)
-			x.names # ['E.Mask', 'E.Auditore', 'R.Rocknrolla']
-			x.dates # ['1.09.1887', '24.17.2020']
-			x.phone_numbers # ['055-445-789', '093-587-135']
+		    x.names # ['E.Mask', 'E.Auditore', 'R.Rocknrolla']
+		    x.dates # ['1.09.1887', '24.17.2020']
+		    x.phone_numbers # ['055-445-789', '093-587-135']
 			
 		3.2 x[1]    # E.Mask
 		    x[1:3] # ['E.Mask', '124.06.2014']
