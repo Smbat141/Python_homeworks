@@ -23,7 +23,7 @@
 			role -  չի կարող user-ը լրացնել, միշտ պետք է լինի user
 			country - պետք է կազմված լինի minimum 3 և maximum 25 տառերից:
 		
-		1.2	Գրել decorator registration function-ի համար որը կընդունի parametr country-ների list
+		1.2	Գրել decorator registration function-ի համար որը կընդունի parameter country-ների list
 			և եթե registration-ի ժամանակ user-ի գրած country-ին չի լինի list-ում ցույց տալ error message:
 ```
 
