@@ -14,16 +14,17 @@
 
 	2.  Գրել registration module:
 
-		1.1	registration լինելուց ստուգեք user-ի տվյալները և չհամապատասխանելու դեպքում ցույց տվեք 
+		2.1	registration լինելուց ստուգեք user-ի տվյալները և չհամապատասխանելու դեպքում ցույց տվեք 
 			համապատասխան error message:
 			
 			first_name, last_name - պետք է կազմված լինի minimum 4 և maximum 30 տառերից: 
 			email - պետք է վերջում լինի @gmail.com
+			password - պետք է կազմված լինի 8 և ավել տառերից կամ թվերից
 			age - պետք է int և 0-112-ի միջակայքում
 			role -  չի կարող user-ը լրացնել, միշտ պետք է լինի user
 			country - պետք է կազմված լինի minimum 3 և maximum 25 տառերից:
 		
-		1.2	Գրել decorator registration function-ի համար որը կընդունի parameter country-ների list
+		2.2	Գրել decorator registration function-ի համար որը կընդունի parameter country-ների list
 			և եթե registration-ի ժամանակ user-ի գրած country-ին չի լինի list-ում ցույց տալ error message:
 ```
 
