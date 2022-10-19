@@ -10,7 +10,7 @@
 			գտած file-ը: File-ը գտնել ըստ child class-ի անունի:
 			
 			Օրինակ ՝	>>> class Tesla(File):
-					>>> 	pass
+					>>>     pass
 					>>> 
 					>>> tesla = Tesla()
 					>>> tesla.file # file object
@@ -25,11 +25,11 @@
 			setter - կփոխի ժառանգ class-ի անունով file-ի text-ը:
 			deleter - կջնջի ժառանգ class-ի անունով file-ը:
 		
-		2.2 Գրել Tesla և Lexus class-ներ որոնք կլինեն File class-ի ժառանգ:
+		2.3 Գրել Tesla և Lexus class-ներ որոնք կլինեն File class-ի ժառանգ:
 			
-			Օրինակ`	>>> class Lexus(File):
-					>>> 	pass
-					>>> 	
+			Օրինակ`		>>> class Lexus(File):
+					>>>     pass
+					>>>
 					>>> lexus = Lexus()
 					>>> lexus.child_file # print text from file lexus.txt
 					1,Lexus_IS,Sedan,Gasoline ...
@@ -39,7 +39,7 @@
 					>>> del lexus.child_file # remove lexus.txt file
 					>>> lexus.child_file # error
 		
-		2.3	Գրել method որը rename կանի child file-ի անունը:
+		2.4	Գրել method որը rename կանի child file-ի անունը:
 ```
 
 
