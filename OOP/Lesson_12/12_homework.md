@@ -7,10 +7,10 @@
 	
 		def __call__(self, *args, **kwargs):
 		
-			cls = type.__call__(self, *args)
-			print(cls) # Logger object
+			obj = type.__call__(self, *args)
+			print(obj) # Logger object
 		
-		        return cls
+		        return obj
 	
 	3.	Փոխել __call__ method-ը այնպես որ Logger-ից նոր object չսարքի
 		և սարքելուց միշտ վերադարձնի նույն object-ը:
