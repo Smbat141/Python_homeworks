@@ -15,7 +15,7 @@
 		
 	2.	Գրել Car-ի ժառանգ class Bus
 	
-		2.1 որը init-ում կստանա հետեվյալ parametre-երը ՝ horsepower, weight, max_seats, busy_seats(default 0):
+		2.1 որը init-ում կստանա հետեվյալ parametre-երը ՝ horsepower, weight, engine_type, max_seats, busy_seats(default 0):
 		
 		2.2 Գրել method որը կավելացնի busy_seats-ի քանակը:
 		
