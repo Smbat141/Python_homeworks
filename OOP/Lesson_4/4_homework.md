@@ -21,26 +21,26 @@
 
 		print(D.mro())
 		
-	2.	Գրել AbstractFile class որը կունենա translate() և write() method
+        2.  Գրել AbstractFile class որը կունենա translate() և write() method
 	
-		2.1 Գրել EnglishFile class որը կլինի AbstractFile-ի ժառանգ
-		
-		2.2 translate() method-ը պետք է ընդունի ռուսերեն տառերով գրված տեքստ և վերադաձնի անգլերեն տառերով գրված տեքստ:
-		    Մեծատառ և փոքրատառ հաշվի չառնել:
+            2.1 Գրել EnglishFile class որը կլինի AbstractFile-ի ժառանգ
             
-            Օրինակ ՝	хелло ворлд -> hello world  
-                    	Хелло Ворлд -> Hello World
-                        писать код  -> pisat kod
-		
-		2.3 write() method-ը վերջին թարքմանված տեքստը պետք է գրի file-ում:
-		
-		2.4 Գրել RussianFile class որը կունենա նույն method-ները բայց տեքստը անգլերենից կդարձնի ռուսերեն:
+            2.2 translate() method-ը պետք է ընդունի ռուսերեն տառերով գրված տեքստ և վերադաձնի անգլերեն տառերով գրված տեքստ:
+                Մեծատառ և փոքրատառ հաշվի չառնել:
+                
+                Օրինակ ՝	хелло ворлд -> hello world  
+                            Хелло Ворлд -> Hello World
+                            писать код  -> pisat kod
             
-            Օրինակ ՝	hello world -> хелло ворлд
-                    	Hello World -> хелло ворлд
-                    	pisat kod   -> писать код
-                               
-        2.5 Որոշեք թե translate ու write method-ներից որը պետք է լինի abstract և որը սովորական method
+            2.3 write() method-ը վերջին թարքմանված տեքստը պետք է գրի file-ում:
+            
+            2.4 Գրել RussianFile class որը կունենա նույն method-ները բայց տեքստը անգլերենից կդարձնի ռուսերեն:
+                
+                Օրինակ ՝	hello world -> хелло ворлд
+                                Hello World -> хелло ворлд
+                                pisat kod   -> писать код
+                                       
+            2.5 Որոշեք թե translate ու write method-ներից որը պետք է լինի abstract և որը սովորական method
 ```
 
 ### Research
