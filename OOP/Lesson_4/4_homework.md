@@ -30,7 +30,7 @@
                 
                 Օրինակ ՝    хелло ворлд -> hello world  
                             Хелло Ворлд -> Hello World
-                            писать код  -> pisat kod
+                            писат код  -> pisat kod :)
             
             2.3 write() method-ը վերջին թարքմանված տեքստը պետք է գրի file-ում:
             
@@ -38,7 +38,7 @@
                 
                 Օրինակ ՝    hello world -> хелло ворлд
                             Hello World -> хелло ворлд
-                            pisat kod   -> писать код
+                            pisat kod   -> писат код :)
                                        
             2.5 Որոշեք թե translate ու write method-ներից որը պետք է լինի abstract և որը սովորական method
 ```
