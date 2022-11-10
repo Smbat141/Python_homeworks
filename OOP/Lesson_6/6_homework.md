@@ -23,7 +23,7 @@
 			>>> for item in tesla:
 			... 	print(item) # 1. Sedan S, 2. Coupe ...
 		
-		2.3	in արտահայտությունը նույնպես պետք է աշխատի ըստ մեր նախորք որոշած attribute-ի:
+		2.3	in արտահայտությունը նույնպես պետք է աշխատի ըստ մեր նախորոք որոշած attribute-ի:
 			
 			>>> tesla = TeslaMotors('body_types')
 			>>>
