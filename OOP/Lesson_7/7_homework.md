@@ -10,21 +10,21 @@
 		clap() - կանչում է voice_after_clap()-ը եթե count_of_hands-ը 2+ է
 		voice_after_clap() - ծափ տալու ձայն է հանում(ճլտ):
 		
-		3.1	Որոշեք թե հետեվյալ attribute-ներից որոնք պետք է լինեն public և որոնք private:
+		3.1	Որոշեք թե հետեվյալ method-ներից որոնք պետք է լինեն public և որոնք private:
 		
 		3.2	Գրել երկու class ` Zeus որը կլինի God-ի ժառանգ և Herkules որը կլինի Zeus-ի ժառանգ,
 			այդ class-ները կունենան իրենց class attribute-ները և method-ները(public, protected, private)
 			
 	4	Herkules class-ը պետք է ունենա 3 method
 			
-		get_public_attributes() - վերադարձնում է իր և իր բոլոր parent-ների public attribute-ները:
-		get_protected_attributes() - վերադարձնում է իր և իր բոլոր parent-ների protected attribute-ները:
-		get_private_attributes() - վերադարձնում է իր և իր բոլոր parent-ների private attribute-ները:
+		get_public() - վերադարձնում է իր և իր բոլոր parent-ների public attribute-ները և method-ները:
+		get_protected() - վերադարձնում է իր և իր բոլոր parent-ների protected attribute-ները և method-ները:
+		get_private() - վերադարձնում է իր և իր բոլոր parent-ների private attribute-ները և method-ները:
 		
 		
 		Նախազգուշացում - dir()-ից չօգտվել:
 		
-		Հուշում՝ կարող եք օգտվել __bases__ attribute-ից:
+		Հուշում՝ կարող եք օգտվել class-ի mro() method-ից կամ __bases__ attribute-ից:
 ```
 
 
