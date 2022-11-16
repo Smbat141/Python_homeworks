@@ -64,17 +64,16 @@
                         >>> del lexus.child_file # remove lexus.txt file
 ```
 
-
 ### Research
+
 ```
     1.  file = open("new_file.txt")
-        Ոնց կարանք ստանալ արդեն open արած ֆայլի անունը file object-ից("new_file.txt" string-ը վերեվի օրինակից )
+        Ոնց կարանք ստանալ արդեն open արած ֆայլի անունը file object-ից("new_file.txt" string-ը վերը նշված օրինակից)
     
     2.  remove file
     3.  rename file name
     4.  decorators (կրկնել անպայման)
 ```
-
 
 ### Links
 
