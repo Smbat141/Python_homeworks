@@ -8,9 +8,9 @@
 	        
     2.  Research արեք մինչև շարունակելը(decorator-ը կարաք տնայինը անելուց հետո նայեք :)
 	
-    2.	Գրել File class որը կունենա
+    3.	Գրել File class որը կունենա
 		
-        2.2 file attribute որը կունենա getter, setter (օգտվելով property-ից որպես class attribute):
+        3.1 file attribute որը կունենա getter, setter (օգտվելով property-ից որպես class attribute):
             
             getter - կգտնի class-ի անունով file(․txt ֆորմատով, այսինքն քանի որ հիմա class-ի անունը File-ա վերադարցնի "file.txt" file֊ը): 
             
@@ -36,7 +36,7 @@
                         <_io.TextIOWrapper name='new_file.txt' mode='r' encoding='cp1251'> 
                         
     
-        2.2 child_file attribute որը կունենա getter, setter, deleter(օգտվելով property-ից որպես decorator):
+        3.2 child_file attribute որը կունենա getter, setter, deleter(օգտվելով property-ից որպես decorator):
             
             getter - վերադարձնում է ժառանգ class-ի անունով file-ի text-ը:
             setter - կփոխի ժառանգ class-ի անունով file-ի text-ը:
