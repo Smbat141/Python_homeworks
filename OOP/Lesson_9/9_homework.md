@@ -10,11 +10,16 @@
 		2.2	Գրել SingleError և ManyErrors Exception-ներ որոնք կլինեն FileError-ի child:
 		
 		2.3	child_file attribute-ը read() անելուց տեքստում __error__ բառին հանդիպելու դեպքում
-			raise անել SingleError error message-ով, գրել թե որ տողում եք հանդիպել __error__-ին
-			և որ file-ում:
+			պետք է raise անել՝
 			
-		2.4	Եթե file-ում հանդիպի __error__ raise անել ManyErrors և գրել բոլոր տողերի համարը
-			որտեղ կա __error__:
+			1. SingleError error message-ով, գրել թե որ տողում եք հանդիպել __error__-ին և որ file-ում, եթե
+			   __error__-րի քանաքը հավասար է 1-ի:
+			   
+			
+			2. ManyErrors error message-ով, գրել թե որ տողերում եք հանդիպել __error__-ին և որ file-ում, եթե
+			   __error__-րի քանաքը մեծ է 1-ից:
+			   
+			
 ```
 
 
