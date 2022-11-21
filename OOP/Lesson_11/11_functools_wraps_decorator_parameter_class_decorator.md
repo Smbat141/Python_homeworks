@@ -1,6 +1,24 @@
 # 11. method decorator, decorator for class
 
-### 1. functools.wraps
+### 1. decorator as function
+
+
+```python
+# def my_decorator(func):
+#     def wrap():
+#         print('before my func')
+#         func()
+#     return wrap
+    
+# @my_decorator
+# def my_func():
+#     print('from my func')
+
+# my_func()
+```
+
+
+### 2. functools.wraps
 
 
 ```python
@@ -29,7 +47,7 @@
 # my_func()
 ```
 
-### 2. decorator with parameters
+### 3. decorator with parameters
 
 
 ```python
@@ -58,7 +76,7 @@
 # mean(1, 2, 3, "4")
 ```
 
-### 3. class decorator
+### 4. decorator as class
 
 
 ```python
@@ -79,21 +97,23 @@
 # my_func()
 ```
 
+### 4. decorator for method
 
 ```python
-# class MyDecorator:
-    
-#     def __init__(self, func):
-#         print('decorator init')
-#         self.func = func
+# def check_engine(start):
+    # def wrapper(self):
+        # print("engine checked")
+        # start(self)
         
-#     def __call__(self):
-#         print('decorator call method')
-#         self.func()
+    # return wrapper
 
-# def my_func():
-#     print('from my func') 
+# class Car:
 
-# myfunc = MyDecorator(my_func) 
-# myfunc()
+    # @check_engine
+    # def start(self):
+        # print("start")
+        
+
+# car = Car()
+# car.start()
 ```
